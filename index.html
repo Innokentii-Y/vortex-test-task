@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__left">
+        <div class="side-menu">
+          <div class="side-menu__top">
+            <div class="side-menu__close">
+              <a href="#" class="link side-menu__close-button"></a>
+            </div>
+            <div class="logo">
+              <a href="/" class="link logo__link">
+                <img src="./assets/images/logo.jpg" alt="Logotype" class="image logo__image">
+              </a>
+            </div>
+          </div>
+          <div class="side-menu__bottom">
+            <nav class="aside">
+              <ul class="list aside__list">
+                <li class="aside__item">
+                  <a href="#" class="link aside__link">
+                    Item-1
+                  </a>
+                </li>
+                <li class="aside__item">
+                  <a href="#" class="link aside__link">
+                    Item-2
+                    <span>
+                      <svg width="12px" height="12px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" fill="none" width="20" height="20" />
+                        <g fill="#202020">
+                          <path d="M6 15l5-5-5-5 1-2 7 7-7 7z" />
+                        </g>
+                      </svg>
+                    </span>
+                  </a>
+                  <ul class="list aside__sub-list">
+                    <li class="aside__sub-item">
+                      <a href="#" class="link aside__sub-link">Item-1-1</a>
+                    </li>
+                    <li class="aside__sub-item">
+                      <a href="#" class="link aside__sub-link">Item-1-2</a>
+                    </li>
+                    <li class="aside__sub-item">
+                      <a href="#" class="link aside__sub-link">Item-1-3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="burger">
+          <a href="#" class="link burger__button"></a>
+        </div>
+        <div class="logo">
+          <a href="/" class="link logo__link">
+            <img src="./assets/images/logo.jpg" alt="Logotype" class="logo__image image">
+          </a>
+        </div>
+      </div>
+      <div class="header__center">
+        <nav class="menu">
+          <ul class="list menu__list">
+            <li class="menu__item">
+              <a href="#" class="link menu__link menu__link_type_shield">Item-1</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="link menu__link menu__link_type_moon">Item-2</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="link menu__link">Item-3</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="link menu__link menu__link_type_dollar">
+                <span>Item-4</span>
+                <span>5,944</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
+        <ul class="list login">
+          <li class="login__item">
+            <a href="#" class="link login__link login__link_type_login">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+                  stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>Login</span>
+            </a>
+          </li>
+          <li class="login__item">
+            <a href="#" class="link login__link login__link_type_subscribe">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="section section_type_news">
+        <div class="news">
+          <h1 class="title title_type_first news__title">
+            New Technologies in Web Design: How to Achieve Seamless Animation
+          </h1>
+          <p class="paragraph news__paragraph">
+            Web designers continue to look for ways to improve user experience, and one of the most relevant areas is
+            the creation of seamless animation. Recent studies have shown that the use of duplicate elements in
+            animation can cause noticeable jerks, which negatively affects the perception of content. Experts recommend
+            using one container with duplicate content, which allows you to create the illusion of infinite scrolling.
+            This approach not only improves the smoothness of animation, but also makes the interface more attractive to
+            users. As a result, web designers can create more dynamic and modern sites that attract attention and retain
+            the interest of visitors.
+          </p>
+          <div class="image-wrapper news__image-wrapper">
+            <img src="./assets/images/news.jpeg" alt="News Image" class="image news__image">
+          </div>
+        </div>
+      </section>
+      <section class="section section_type_form">
+        <form action="" method="post" class="form">
+          <label class="form__label">
+            <span class="form__text">Name</span>
+            <input type="text" name="name" placeholder="name" required class="form__input">
+          </label>
+          <label class="form__label">
+            <span class="form__text">Second-Name</span>
+            <input type="text" name="second-name" placeholder="second-name" required class="form__input">
+          </label>
+          <label class="form__label">
+            <span class="form__text">E-Mail</span>
+            <input type="email" name="mail" placeholder="e-mail" required class="form__input">
+          </label>
+          <label class="form__label">
+            <span class="form__text">Phone</span>
+            <input type="tel" name="tel" placeholder="phone" required class="form__input">
+          </label>
+          <button type="submit" class="form__button">Submit</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__information">
+        <p class="paragraph">Copyright 2025. All Rights Reserved.</p>
+      </div>
+      <ul class="list social-list">
+        <li class="social__item">
+          Social
+        </li>
+        <li class="social social_type_facebook">
+          <a href="#" class="link social__link">
+            <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                fill="#0F0F0F" />
+            </svg>
+          </a>
+        </li>
+        <li class="social social_type_youtube">
+          <a href="#" class="link social__link">
+            <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                fill="#0F0F0F" />
+            </svg>
+          </a>
+        </li>
+        <li class="social social_type_facebook">
+          <a href="#" class="link social__link">
+            <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                fill="#0F0F0F" />
+            </svg>
+          </a>
+        </li>
+        <li class="social social_type_youtube">
+          <a href="#" class="link social__link">
+            <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                fill="#0F0F0F" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
